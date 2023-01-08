@@ -53,7 +53,7 @@ repos:
         stages: [push]
     -   id: coverage
         name: Generating coverage report
-        entry: poetry run coverage report -m
+        entry: poetry run coverage report -m --skip-empty
         language: system
         types:
           - python
