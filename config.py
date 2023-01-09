@@ -8,7 +8,6 @@ class Config:
     ENV = os.getenv("ENV", "testing")
     FLASK_RUN_HOST = os.getenv("FLASK_RUN_HOST", "0.0.0.0")
     FLASK_RUN_PORT = os.getenv("FLASK_RUN_PORT", "5000")
-    print(os.getenv("FLASK_RUN_PORT"))
 
 
 class DevelopmentConfig(Config):
