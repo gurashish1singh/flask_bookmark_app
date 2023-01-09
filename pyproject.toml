@@ -46,7 +46,8 @@ plugins = ["covdefaults"]
 [tool.coverage.report]
 fail_under = 95
 omit = [
-    "logger.py"
+    "logger.py",
+    "wsgi.py"
 ]
 
 [build-system]
